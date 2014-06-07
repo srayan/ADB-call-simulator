@@ -1,0 +1,388 @@
+
+<!DOCTYPE HTML>
+<html> 
+<head><style type="text/css">@charset "utf-8";
+/* CSS Document */
+body{background:url('http://subtlepatterns.com/patterns/ticks_@2X.png');
+  background-size:200px;}
+#cadre
+{
+    transform:scale(1.7);
+    -webkit-transform:scale(1.7);
+  width:200px;
+  height:313px;
+  margin:150px auto;
+  background-color:#373C43;  
+}
+#statusbar
+{
+  width:200px;
+  height:15px;
+  background-color:#22262D;
+  background-image:url(http://webamaury.fr/Doc/CSSD/dialer/Sans-titre-3.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:10px;
+}
+#compo
+{
+  width:198px;
+  height:35px;
+}
+#number
+{
+  width:198px;
+  height:220px;
+  margin:0px 1px 0px 1px;
+}
+
+.button
+{
+  width:64px;
+  height:42px;
+  background-color:#52565C;
+  float:left;
+  margin:1px 1px 1px 1px;
+  -webkit-border-radius:5px;
+  cursor:context-menu;
+}
+.button3
+{
+  width:64px;
+  height:39px;
+  float:left;
+  background-image:url(http://webamaury.fr/Doc/CSSD/dialer/ajout2.png);
+  background-size:35%; 
+  background-position:center;
+  background-repeat:no-repeat;
+
+  margin:1px 1px 1px 1px;
+  -webkit-border-radius:5px;
+}
+.button3:hover
+{
+  width:64px;
+  height:39px;
+  float:left;
+  background-color:#A6A7A9;  
+  background-image:url(http://webamaury.fr/Doc/CSSD/dialer/ajout.png);
+  background-size:35%; 
+  background-position:center;
+  background-repeat:no-repeat;
+
+  margin:1px 1px 1px 1px;
+  -webkit-border-radius:5px;
+}
+.button4
+{
+  width:64px;
+  height:39px;
+  float:left;
+  background-image:url(http://webamaury.fr/Doc/CSSD/dialer/delete2.png);
+  background-size:35%;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  margin:1px 1px 1px 1px;
+  -webkit-border-radius:5px;
+}
+.button4:hover
+{
+  width:64px;
+  height:39px;
+  float:left;
+  background-color:#A6A7A9;
+  background-image:url(http://webamaury.fr/Doc/CSSD/dialer/delete.png);
+  background-size:35%;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  margin:1px 1px 1px 1px;
+  -webkit-border-radius:5px;
+}
+
+.buttoncall
+{
+  width:64px;
+  height:39px;
+  float:left;
+  background-color:#699389;
+  background-image:url(http://webamaury.fr/Doc/CSSD/dialer/call.png);
+  background-size:25%;
+  background-position:center;
+  background-repeat:no-repeat;
+  margin:1px 1px 1px 1px;
+  -webkit-border-radius:5px;
+}
+.buttoncall:hover
+{
+  width:64px;
+  height:39px;
+  float:left;
+  background-color:#6eb4a3;
+  background-image:url(http://webamaury.fr/Doc/CSSD/dialer/call.png);
+  background-size:25%;
+  background-position:center;
+  background-repeat:no-repeat;
+  margin:1px 1px 1px 1px;
+  -webkit-border-radius:5px;
+}
+.button:hover
+{
+  width:64px;
+  height:42px;
+  background-color:#A6A7A9;
+  float:left;
+  margin:1px 1px 1px 1px;
+  -webkit-border-radius:5px;
+}
+#compo p
+{
+    text-align:center;
+    color:#A6A7A9;
+    margin:12px;
+}
+#compo #numero
+{
+    font-size:1.1em;    
+    font-family:euphemia;
+    line-height:90%;
+  
+
+}
+#compo #name
+{
+    font-size:0.5em;
+    color:#96e9d5;
+    font-family:euphemia;
+    line-height:290%;
+}
+.button:hover .num, .button:hover .letter, .button:hover .num2
+{
+    color:#ffffff;
+}
+#number p
+{
+  text-align:center;
+  
+  
+  color:#A6A7A9;
+  font-family:euphemia;
+  line-height:90%;
+}
+.num
+{
+    position:relative;
+    top:-7px;
+  font-size:1.4em;
+  
+}
+.num2
+{
+    font-size:2.5em;
+        position:relative;
+    top:4px;
+
+}
+.letter
+{
+    position:relative;
+    top:-7px;
+
+  font-size:0.45em;
+}
+.button2
+{
+  width:198px;
+  height:41px;
+  background-color:#52565C;
+  float:left;
+  -webkit-border-radius:5px;
+  margin-top:1px;
+}
+#menu
+{
+  width:200px;
+  height:30px;
+  background-color:#22262D;
+  background-position:3px;
+ 
+}
+.menu1
+{
+    width:39px;
+    height:30px;
+    border-right:solid black 1px;
+    background-image:url(http://webamaury.fr/Doc/CSSD/dialer/favoris.png);
+    background-size:60%;
+  background-repeat:no-repeat;
+  background-position:center;
+    float:left;
+    background-color:#22262D;
+}
+.menu1:hover
+{
+    width:39px;
+    height:30px;
+    border-right:solid black 1px;
+    background-image:url(http://webamaury.fr/Doc/CSSD/dialer/favoris.png);
+    background-size:60%;
+  background-repeat:no-repeat;
+  background-position:center;
+    float:left;
+    background-color:#373C43;
+}
+.menu2
+{
+    width:39px;
+    height:30px;
+    border-right:solid black 1px;
+    background-image:url(http://webamaury.fr/Doc/CSSD/dialer/appel.png);
+    background-size:50%;
+  background-repeat:no-repeat;
+  background-position:center;
+    float:left;
+    background-color:#22262D;
+}
+.menu2:hover
+{
+    width:39px;
+    height:30px;
+    border-right:solid black 1px;
+    background-image:url(http://webamaury.fr/Doc/CSSD/dialer/appel.png);
+    background-size:50%;
+  background-repeat:no-repeat;
+  background-position:center;
+    float:left;
+    background-color:#373C43;
+}
+.menu3
+{
+    width:39px;
+    height:30px;
+    border-right:solid black 1px;
+    background-image:url(http://webamaury.fr/Doc/CSSD/dialer/profil.png);
+    background-size:60%;
+  background-repeat:no-repeat;
+  background-position:center;
+    float:left;
+    background-color:#22262D;
+}
+.menu3:hover
+{
+    width:39px;
+    height:30px;
+    border-right:solid black 1px;
+    background-image:url(http://webamaury.fr/Doc/CSSD/dialer/profil.png);
+    background-size:60%;
+  background-repeat:no-repeat;
+  background-position:center;
+    float:left;
+    background-color:#373C43;
+}
+.menu4
+{
+    width:39px;
+    height:30px;
+    border-right:solid black 1px;
+    background-image:url(http://webamaury.fr/Doc/CSSD/dialer/clavier.png);
+    background-size:55%;
+  background-repeat:no-repeat;
+  background-position:center;
+    float:left;
+    background-color:#22262D;
+}
+.menu4:hover
+{
+    width:39px;
+    height:30px;
+    border-right:solid black 1px;
+    background-image:url(http://webamaury.fr/Doc/CSSD/dialer/clavier.png);
+    background-size:55%;
+  background-repeat:no-repeat;
+  background-position:center;
+    float:left;
+    background-color:#373C43;
+}
+.menu5
+{
+    width:39px;
+    height:30px;
+    float:left; 
+  background-color:#22262D;
+  background-image:url(http://webamaury.fr/Doc/CSSD/dialer/messagerie.png);
+    background-size:80%;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.menu5:hover
+{
+    width:39px;
+    height:30px;
+    float:left; 
+  background-color:#373C43;
+  background-image:url(http://webamaury.fr/Doc/CSSD/dialer/messagerie.png);
+    background-size:80%;
+  background-repeat:no-repeat;
+  background-position:center;
+}</style></head>
+<body>
+<center><h1>Team ChagolChana - S Guhathakurta + N Kotla + S Suru + Krithika +*.*</h1></center><div id="cadre">
+    <div id="statusbar"></div>
+     <form action="dial.php" method="post">
+    <div id="compo">
+        <p><span id="numero"></span><br/><span id="name"><input type="text" name="name"></p><br>
+    </div>
+    <div id="number">
+   
+        <div class="button">
+            <p><span class="num">1<br/></span><span class="letter"></span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">2<br/></span><span class="letter">ABC</span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">3<br/></span><span class="letter">DEF</span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">4<br/></span><span class="letter">GHI</span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">5<br/></span><span class="letter">JKL</span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">6<br/></span><span class="letter">MNO</span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">7<br/></span><span class="letter">PQRS</span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">8<br/></span><span class="letter">TUV</span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">9<br/></span><span class="letter">WXYZ</span></p>
+        </div>
+        <div class="button">
+            <p><span class="num2">*<br/></span><span class="letter"></span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">0<br/></span><span class="letter">+</span></p>
+        </div>
+        <div class="button">
+            <p><span class="num">#<br/></span><span class="letter"></span></p>
+        </div>
+        <div class="button2">
+            <div class="button3"></div>
+            <input type="submit" class="buttoncall" value="Call!!!!!!!!!!!!"></div>
+            <div class="button4"></div>
+        </div>
+        
+    </div>
+    </form>
+    <div id="menu">
+     <form action="ans.php" method="post"><input value="Recieve" type="submit" class="buttoncall" ></form>
+     <form action="kete.php" method="post"><input type="submit" class="buttoncall" value="Disconnect"></form>
+    </div>
+</div>
+</body>
+</html>
